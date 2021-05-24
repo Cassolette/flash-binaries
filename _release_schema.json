@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "win": {
+        "description": "Windows platform",
+        "$ref": "./_release_properties_schema.json"
+      },
+      "lnx": {
+        "description": "Linux platform",
+        "$ref": "./_release_properties_schema.json"
+      },
+      "mac": {
+        "description": "MacOS platform",
+        "$ref": "./_release_properties_schema.json"
+      }
+    },
+    "required": [
+      "win",
+      "lnx",
+      "mac"
+    ]
+  }

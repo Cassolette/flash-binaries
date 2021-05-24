@@ -1,0 +1,43 @@
+{
+    "$schema": "./_release_schema.json",
+    "win": {
+        "latest": {
+            "_32": "34.0.0.155",
+            "_64": "34.0.0.155"
+        },
+        "releases": [
+            {
+                "version": "34.0.0.155",
+                "name": "34.0.0.155 (China Enterprise Patched)",
+                "_32": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/pepflashplayer32_34_0_0_155.dll",
+                "_64": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/pepflashplayer64_34_0_0_155.dll"
+            }
+        ]
+    },
+    "lnx": {
+        "latest": {
+            "_32": "34.0.0.137",
+            "_64": "34.0.0.137"
+        },
+        "releases": [
+            {
+                "version": "34.0.0.137",
+                "name": "34.0.0.137 (China Enterprise Patched)",
+                "_32": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/libpepflashplayer32.so",
+                "_64": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/libpepflashplayer64.so"
+            }
+        ]
+    },
+    "mac": {
+        "latest": {
+            "_64": "34.0.0.155"
+        },
+        "releases": [
+            {
+                "version": "34.0.0.155",
+                "name": "34.0.0.155 (China Enterprise Patched)",
+                "_64": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/flash.plugin.tar"
+            }
+        ]
+    }
+}

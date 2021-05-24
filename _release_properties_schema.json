@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "latest": {
+            "type": "object",
+            "description": "Object defining the latest version identifier for the respective architecture",
+            "properties": {
+                "_32": {
+                    "type": "string",
+                    "description": "32-bit architecture"
+                },
+                "_64": {
+                    "type": "string",
+                    "description": "64-bit architecture"
+                }
+            }
+        },
+        "releases": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "version": {
+                            "type": "string",
+                            "description": "The version identifier"
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "The name of the release"
+                        },
+                        "_32": {
+                            "type": "string",
+                            "description": "32-bit architecture"
+                        },
+                        "_64": {
+                            "type": "string",
+                            "description": "64-bit architecture"
+                        }
+                    },
+                    "required": [
+                        "version",
+                        "name"
+                    ]
+                }
+            ]
+        }
+    },
+    "required": [
+        "latest",
+        "releases"
+    ]
+}

@@ -7,6 +7,12 @@
         },
         "releases": [
             {
+                "version": "32.0.0.465",
+                "name": "32.0.0.465 (Patched)",
+                "_32": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/32.0.0.465/pepflashplayer32_32_0_0_465.dll",
+                "_64": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/32.0.0.465/pepflashplayer64_32_0_0_465.dll"
+            },
+            {
                 "version": "34.0.0.155",
                 "name": "34.0.0.155 (China Enterprise Patched)",
                 "_32": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/pepflashplayer32_34_0_0_155.dll",
@@ -21,10 +27,16 @@
         },
         "releases": [
             {
+                "version": "32.0.0.465",
+                "name": "32.0.0.465 (Patched)",
+                "_32": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/32.0.0.465/pepflashplayer32_32_0_0_465.dll",
+                "_64": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/32.0.0.465/pepflashplayer64_32_0_0_465.dll"
+            },
+            {
                 "version": "34.0.0.137",
                 "name": "34.0.0.137 (China Enterprise Patched)",
-                "_32": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/libpepflashplayer32.so",
-                "_64": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/34.0.0.155/libpepflashplayer64.so"
+                "_32": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/32.0.0.465/libpepflashplayer32.so",
+                "_64": "https://github.com/Cassolette/flash-binaries/raw/master/binaries/32.0.0.465/libpepflashplayer64.so"
             }
         ]
     },
